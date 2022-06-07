@@ -1,0 +1,505 @@
+/* Colors */
+.color-grisulado {
+  color: #F3F6F9;
+}
+.color-primary {
+    color: #FFDB2E;
+}
+
+/* Font size*/
+.font-s-13 {
+    font-size: 13px;
+}
+.font-s-16 {
+    font-size: 16px;
+}
+.t-decoration-none {
+    text-decoration: none;
+}
+
+/* Background color */
+.bgcolor-grisulado {
+    background-color:#F3F6F9;
+}
+.bgcolor-primary {
+    background-color:#FFDB2E;
+}
+.bgcolor-lightblue {
+    background-color: #cffbe2;
+}
+.bgcolor-lightblue-2 {
+    background-color: #F5F9FC;
+}
+
+
+/* Border radius */
+.b-radius-8 {
+    border-radius: 8px;
+}
+
+/* Width */
+.w-100 {
+    width: 712px;
+}
+.w-340 {
+    width: 340px;
+}
+.w-1000 {
+    width: 1000px;
+}
+.w-1084 {
+    width: 1084px;
+}
+
+/* Height */
+.h-367 {
+    height: 367px;
+}
+
+
+/* Margin */
+.margin-left-141 {
+    margin-left: 141px;
+}
+.margin-bottom-80 {
+  margin-bottom: 80px;  
+}
+.margin-top-24 {
+    margin-top: 24px;
+}
+.margin-right-48 {
+    margin-right: 48px;
+}
+
+/* Display */
+.dflex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cards */
+.card {
+    height: 126px;
+    border-left: #FFDB2E solid 8px;
+    width: 340px;
+}
+
+
+
+
+
+/* -------------------- Header -------------------- */
+.navbar {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------- Banner -------------------- */
+.container-banner {
+    height: 339px;
+    padding-top: 24px;
+
+}
+
+.content-banner {
+    width: 1084px;
+    
+}
+/* Banner - Text*/
+.text-banner-sm {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+/* Banner - Cards*/
+.dflex-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards-container-banner {
+    margin-top: 43px;
+}
+
+
+/* Container general (contiene "Consultar mi resultado", "Servicios generales" y "Propuestas para hacer en casa") */
+.container-general {
+    margin-top: 108px;
+}
+
+
+/* -------------------- Consultar mi resultado -------------------- */
+.container-consultar-resultado {
+    display: flex;
+    padding-top: 45px;
+    padding-left: 42px;
+    margin-bottom: 64px;
+}
+
+.img-consultar-resultado {
+    width: 500px;
+    height: 312px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.title-consultar-resultado {
+    margin-left: 21px;
+}
+
+.p-consultar-resultado {
+    width: 75%;
+    margin-left: 22px;
+}
+
+.btn-consultar-resultado {
+    margin-left: 23px;
+    margin-bottom: 45px;
+}
+
+.container-inputs {
+    display: flex;
+}
+
+
+
+/* -------------------- Servicios generales -------------------- */
+.img-card {
+    width: 32px;
+    height: 32px;
+}
+
+.img-card-container {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.title-card-servicios-generales {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+
+
+/* -------------------- Propuestas para hacer en casa -------------------- */
+.card-body-propuestas {
+    width: 340px;
+    height: 384px;
+}
+.img-card-propuestas {
+    height: 254px;
+}
+.card-text-propuestas {
+  padding: 24px;
+  padding-top: 0%;
+}
+.card-title-propuestas {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+
+/* -------------------- Información en datos -------------------- */
+.container-info-datos {
+    height: 268px;
+    background-color: #F3F6F9;
+    padding-top: 40px;
+    padding-left: 141px;
+}
+
+.card-text-info-datos {
+    width: 712px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn-info-datos {
+    width: 218px;
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.btn-info-datos-primary {
+    margin-right: 24px;
+}
+
+
+/* -------------------- Prevención -------------------- */
+.container-prevencion {
+    display: flex;
+    width: 917px;
+    height: 812px;
+}
+
+.container-prevencion-left {
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+}
+.container-prevencion-right {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-prevencion {
+    width: 294px;
+    height: 34px;
+}
+
+.prevencion-item {
+    display: flex;
+    height: 64px;
+    margin-top: 27px;
+}
+
+.item-1 {
+    margin-top: 36px;
+}
+
+.img-prevencion {
+    width: 57px;
+    height: 57px;
+}
+
+.p-prevencion {
+    width: 252px;
+    height: 47px;
+    margin-left: 24px;
+}
+
+
+.p-list-prevencion {
+    margin-top: 20px;
+}
+
+
+.btn-prevencion-2 {
+    height: 34px;
+    font-size: 16px;
+    width: 182px;
+}
+
+
+
+
+/* -------------------- Info del Gobierno Nacional y Footer -------------------- */
+.container-footer-1 {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-footer-item {
+    margin-top: 30px;
+}
+
+.margin-right-item {
+    margin-right: 48px;
+}
+
+.title-footer {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------- Diseño mobile width:360px -------------------- */
+@media only screen and (max-width: 365px) {
+    /* Width */
+    .w-100 .w-340 .w-1000 .w-1084 .w-712 {
+        width: 330px;
+    }
+    /* Height */
+    .h-367 {
+        height: 150px;
+    }
+    /* Margin */
+    .margin-left-141 {
+        margin-left: 0px;
+    }
+    .margin-right-48 {
+        margin-right: 0px;
+    }
+    .margin-bottom-80 {
+      margin-bottom: 16px;  
+    }
+    .margin-top-24 {
+        margin-top: 16px;
+    }
+    /* Display */
+    .dflex-space-between {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    /* Header */
+    .input-search {
+        background-color: rgba(41, 111, 139, 0);
+    }
+    /* Banner - Cards */
+    .cards-container-banner {
+        height: 420px;
+        width: 328px;
+    }
+    .card {
+        height: 126px;
+        width: 328px;
+    }
+
+    .container-banner .content-banner {
+        width: 328px;
+        margin-left: 16px;
+    }
+    .container-banner {
+        height: 743px;
+    }
+
+    /* Container general */
+    .container-general {
+        margin-top: 100px;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Consultar resultado*/
+    .container-consultar-resultado {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+        padding-left: 16px;
+        margin-bottom: 80px;
+        align-items: flex-start;
+
+        width: 360px;
+        height: 826px;
+    }
+    
+    .title-consultar-resultado {
+        margin-left: 0px;
+        width: 328px;
+    }
+    
+    .p-consultar-resultado {
+        width: 328px;
+        margin-left: 0px;
+
+    }
+
+    .img-consultar-resultado {
+        width: 340px;
+        height: 307px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    
+    
+    .btn-consultar-resultado {
+        margin-left: 23px;
+        margin-bottom: 45px;
+    }
+    
+    .container-inputs {
+        display: flex;
+        flex-direction: column;
+        width: 328px;
+    }
+
+    .form-group {
+        margin-bottom: 0%;
+        margin-top: 0%; 
+    }
+    /* Servicios generales */
+    .title-servicios {
+        margin-left: 16px;
+    }
+  
+    /* Propuestas para hacer en casa */ 
+    .title-propuestas {
+        margin-left: 16px; 
+    }
+
+    .card-body-propuestas {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        width: 328px;
+        height: 420px;
+    }
+
+    .img-card-propuestas {
+        width: 325px;
+    }
+    
+   /*Info datos*/
+
+    .container-info-datos {
+        height: 400px;
+        width: 360px;
+
+        padding-top: 40px;
+        padding-left: 16px;
+        margin-bottom: 80px;
+    }
+
+    .card-text-info-datos {
+        width: 328px;
+    }
+
+    /* Prevencion y síntomas */
+    .container-prevencion {
+        display: flex;
+        width: 340px;
+        height: 1750px;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    
+    .container-prevencion-left {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .container-prevencion-right {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Footer */
+    .container-footer-1 {
+        height: 375px;
+        justify-content: center;
+    }
+
+    .title-footer {
+        width: 320px;
+    }
+
+    .items-container-footer {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+    }
+
+    
+    
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@gcba/obelisco": "^1.33.1"
+  }
+}
